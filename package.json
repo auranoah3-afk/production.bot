@@ -1,0 +1,19 @@
+{
+  "name": "discordbot",
+  "version": "2.1.1",
+  "description": "A multi-server Discord community and moderation bot using discord.js.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:pm2": "pm2 start ecosystem.config.cjs",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "devUserIds": [],
+  "guilds": {
+    "1340204978341675019": {
+      "logChannelId": "1340204980061212676",
+      "logsEnabled": true,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "dashboard",
+        "dev"
+      ],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "joinChat": {
+        "enabled": true,
+        "channelId": "1340204979398639643",
+        "enabledBy": "1205738144323080214",
+        "enabledAt": 1779069393162
+      },
+      "twitch": {
+        "channelName": "timmysudo",
+        "announceChannelId": "1340204979163762786",
+        "enabled": true,
+        "lastStreamId": null
+      }
+    },
+    "1478573374392504504": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "dashboard",
+        "dev"
+      ],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "joinChat": {
+        "enabled": true,
+        "channelId": "1478573375147348180",
+        "enabledBy": "1205738144323080214",
+        "enabledAt": 1779069743870
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "lastStreamId": null
+      }
+    },
+    "1505751652655693926": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "dashboard",
+        "dev"
+      ],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "lastStreamId": null
+      }
+    }
+  }
+}
