@@ -14,7 +14,7 @@ This repository now contains a static public website in `public/`:
 
 Use these settings for a plain HTML/CSS/JS deployment:
 
-- Build command: `exit 0`
+- Build command: `npm run build`
 - Build output directory: `public`
 - Root directory: repository root
 
@@ -32,15 +32,24 @@ https://<project-name>.pages.dev
 4. Choose Create application.
 5. Choose Pages.
 6. Connect the GitHub repository.
-7. Set build command to `exit 0`.
+7. Set build command to `npm run build`.
 8. Set output directory to `public`.
 9. Deploy.
 
 ## Cloudflare Workers/Wrangler Settings
 
-If Cloudflare is configured to run `npx wrangler deploy`, keep the included `wrangler.jsonc`.
-It points Workers static assets at `./public`, which prevents Wrangler from uploading the bot
-source, `node_modules`, SQLite files, logs, or other non-website artifacts.
+If you deploy manually with Wrangler, use:
+
+```powershell
+npm run deploy:site
+```
+
+The included `wrangler.jsonc` points static assets at `./public`, which prevents Wrangler from
+uploading the bot source, `node_modules`, SQLite files, logs, or other non-website artifacts.
+
+The root `.assetsignore` is a second safety layer. If Cloudflare or Wrangler ever falls back to
+using the repository root as the assets directory, it still excludes bot code, dependencies, logs,
+and databases from the upload.
 
 Future pushes to the selected GitHub branch will automatically redeploy the public site.
 

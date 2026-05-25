@@ -8,7 +8,9 @@
     "start": "pm2 start ecosystem.config.cjs --env production --only discordbot --update-env",
     "start:pm2": "pm2 start ecosystem.config.cjs --env production --only discordbot --update-env",
     "start:dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-discordbot-dev.ps1",
+    "build": "node scripts/build-static-site.mjs",
     "deploy": "node src/deploy-commands.js",
+    "deploy:site": "npx wrangler pages deploy public --project-name productionbot",
     "deploy:dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-discordbot-dev.ps1",
     "preview": "node src/local-preview-server.js",
     "test": "node tests/run-tests.js"

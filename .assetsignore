@@ -1,0 +1,10 @@
+*
+!index.html
+!style.css
+!script.js
+!404.html
+!_headers
+!_redirects
+!.nojekyll
+!public/
+!public/**
