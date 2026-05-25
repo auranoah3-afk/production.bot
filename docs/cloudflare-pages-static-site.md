@@ -48,8 +48,11 @@ Only use:
 - Build output directory: `public`
 - Root directory: repository root
 
-The root `.assetsignore` is a safety layer for accidental Wrangler/static-asset deploys. It excludes
-bot code, dependencies, logs, and databases from asset uploads.
+The root `wrangler.jsonc` and `.assetsignore` are safety layers for accidental
+Wrangler/static-asset deploys. If Cloudflare still runs `npx wrangler deploy`,
+Wrangler must publish only `./public`, never the repository root. This prevents
+`node_modules`, bot source, logs, databases, and local runtime files from being
+uploaded as website assets.
 
 Future pushes to the selected GitHub branch will automatically redeploy the public site.
 
