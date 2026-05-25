@@ -29,7 +29,7 @@ npm.cmd install
 6. Deploy slash commands globally:
 
 ```powershell
-npm.cmd run deploy
+npm.cmd run deploy:commands
 ```
 
 7. Start the bot:

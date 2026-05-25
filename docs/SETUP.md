@@ -72,7 +72,7 @@ npm.cmd install
 Deploy slash commands:
 
 ```powershell
-npm.cmd run deploy
+npm.cmd run deploy:commands
 ```
 
 The deploy script registers global slash commands and clears old guild-specific command copies in servers the bot can access. If one server says `Missing Access`, invite the bot there again with the right scopes or ignore it if you do not manage that server.
@@ -126,7 +126,7 @@ npm.cmd run start:dev
 npx.cmd pm2 logs discordbot-dev --lines 50 --nostream
 ```
 
-The development bot reads `.env.development`, stores its server memory and settings in `data/config.development.json`, and runs as PM2 app `discordbot-dev`. The normal `npm.cmd run deploy` command still deploys the Production bot globally.
+The development bot reads `.env.development`, stores its server memory and settings in `data/config.development.json`, and runs as PM2 app `discordbot-dev`. The normal `npm.cmd run deploy:commands` command still deploys the Production bot globally.
 
 ## 5. Invite The Bot
 
@@ -428,7 +428,7 @@ node --check src\commands.js
 If slash commands changed:
 
 ```powershell
-npm.cmd run deploy
+npm.cmd run deploy:commands
 ```
 
 Restart the bot:
@@ -448,8 +448,8 @@ npx.cmd pm2 logs discordbot --lines 30 --nostream
 
 | Problem | What to check |
 | --- | --- |
-| Slash command does not show | Run `npm.cmd run deploy`, wait for Discord propagation, and make sure the invite included `applications.commands`. |
-| Duplicate slash commands show | Run `npm.cmd run deploy`; it clears known guild command copies where the bot has access. |
+| Slash command does not show | Run `npm.cmd run deploy:commands`, wait for Discord propagation, and make sure the invite included `applications.commands`. |
+| Duplicate slash commands show | Run `npm.cmd run deploy:commands`; it clears known guild command copies where the bot has access. |
 | Prefix commands do not work | Enable Message Content Intent in the Discord Developer Portal and restart the bot. |
 | Admin command says no permission | Give yourself the Discord permission, add your ID to `ADMIN_USER_IDS`, or add an admin access role from `/dashboard`. |
 | Developer command is locked | Add your ID to the admin/developer users list in `.env`, the preview Admin Access panel, or `/devdashboard`, then restart if you changed `.env`. |
@@ -465,7 +465,7 @@ npx.cmd pm2 logs discordbot --lines 30 --nostream
 
 ```powershell
 npm.cmd test
-npm.cmd run deploy
+npm.cmd run deploy:commands
 npm.cmd run preview
 npx.cmd pm2 list
 npx.cmd pm2 restart discordbot --update-env

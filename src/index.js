@@ -747,7 +747,7 @@ async function recoverAfterReconnect(source, args = []) {
     });
   });
   if (parseBoolean(process.env.RESYNC_COMMANDS_ON_RECONNECT, false)) {
-    runtimeLogger.warn('recovery', 'Slash command resync requested after reconnect; run npm.cmd run deploy manually to avoid duplicate registration spam.', {
+    runtimeLogger.warn('recovery', 'Slash command resync requested after reconnect; run npm.cmd run deploy:commands manually to avoid duplicate registration spam.', {
       source,
       args: args.length
     });
