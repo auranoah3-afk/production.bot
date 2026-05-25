@@ -1,39 +1,14 @@
 {
   "version": 2,
-  "devUserIds": [],
+  "adminUserIds": [
+    "1205738144323080214"
+  ],
+  "devUserIds": [
+    "1205738144323080214"
+  ],
+  "errorDmUserIds": [],
   "guilds": {
-    "1340204978341675019": {
-      "logChannelId": "1340204980061212676",
-      "logsEnabled": true,
-      "enabledLogCategories": [
-        "messages",
-        "members",
-        "moderation",
-        "channels",
-        "roles",
-        "voice",
-        "sticky",
-        "twitch",
-        "dashboard",
-        "dev"
-      ],
-      "lockdownRoleId": null,
-      "stickyMessages": {},
-      "warnings": {},
-      "joinChat": {
-        "enabled": true,
-        "channelId": "1340204979398639643",
-        "enabledBy": "1205738144323080214",
-        "enabledAt": 1779069393162
-      },
-      "twitch": {
-        "channelName": "timmysudo",
-        "announceChannelId": "1340204979163762786",
-        "enabled": true,
-        "lastStreamId": null
-      }
-    },
-    "1478573374392504504": {
+    "1116194748223475742": {
       "logChannelId": null,
       "logsEnabled": false,
       "enabledLogCategories": [
@@ -45,23 +20,926 @@
         "voice",
         "sticky",
         "twitch",
+        "youtube",
+        "tiktok",
         "dashboard",
         "dev"
       ],
+      "adminRoleIds": [],
       "lockdownRoleId": null,
       "stickyMessages": {},
       "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
       "joinChat": {
-        "enabled": true,
-        "channelId": "1478573375147348180",
-        "enabledBy": "1205738144323080214",
-        "enabledAt": 1779069743870
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
       },
       "twitch": {
         "channelName": null,
         "announceChannelId": null,
         "enabled": false,
-        "lastStreamId": null
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 2,
+          "activeUserIds": [
+            "1332500354838954054"
+          ],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      }
+    },
+    "1205738945506185256": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "tiktok",
+        "dashboard",
+        "dev"
+      ],
+      "adminRoleIds": [],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 0,
+          "activeUserIds": [],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      }
+    },
+    "1340204978341675019": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "tiktok",
+        "dashboard",
+        "dev"
+      ],
+      "adminRoleIds": [],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 0,
+          "activeUserIds": [],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      }
+    },
+    "1405063177124970516": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "tiktok",
+        "dashboard",
+        "dev"
+      ],
+      "adminRoleIds": [],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 4,
+          "activeUserIds": [
+            "1205738144323080214",
+            "1451809680203710494"
+          ],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      }
+    },
+    "1416125258787979358": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "tiktok",
+        "dashboard",
+        "dev"
+      ],
+      "adminRoleIds": [],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 13,
+          "activeUserIds": [
+            "1332500354838954054",
+            "1156436076521586719",
+            "1483281385241448660"
+          ],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
       }
     },
     "1505751652655693926": {
@@ -76,24 +954,187 @@
         "voice",
         "sticky",
         "twitch",
+        "youtube",
+        "tiktok",
         "dashboard",
         "dev"
       ],
+      "adminRoleIds": [],
       "lockdownRoleId": null,
       "stickyMessages": {},
       "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
       "joinChat": {
         "enabled": false,
         "channelId": null,
         "enabledBy": null,
         "enabledAt": null
       },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
       "twitch": {
         "channelName": null,
         "announceChannelId": null,
         "enabled": false,
-        "lastStreamId": null
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastLiveMessageId": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": []
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 0,
+          "activeUserIds": [],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
       }
     }
+  },
+  "updateSubscribers": [],
+  "suggestions": {},
+  "disabledCommands": [],
+  "lastBotVersion": "2",
+  "uptimeStatus": {
+    "guildId": "1505751652655693926",
+    "channelId": "1506820166619631636",
+    "messageId": "1508220000278941767"
   }
 }

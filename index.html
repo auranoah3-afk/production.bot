@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0f">
+  <meta name="description" content="Production is a dark red Discord bot control platform for stream alerts, counters, moderation, logging, and community tools.">
+  <title>Production Bot Platform</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Production home">
+        <span class="brand-mark">P</span>
+        <span>Production</span>
+      </a>
+      <div class="nav-links">
+        <a href="#status">Status</a>
+        <a href="#commands">Commands</a>
+        <a href="#docs">Docs</a>
+        <a href="#dashboard">Dashboard</a>
+      </div>
+      <div class="nav-actions">
+        <a class="button ghost" id="inviteTop" href="#" target="_blank" rel="noreferrer">Invite Bot</a>
+        <button class="button primary" id="loginTop" type="button">Login with Discord</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero shell" id="home">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <span class="eyebrow">Production control panel</span>
+      <h1>High-security Discord operations, wrapped in dark red.</h1>
+      <p class="hero-copy">
+        A public SaaS-style command center for stream tracking, server counters, moderation,
+        logging, analytics, and community features.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" id="inviteHero" href="#" target="_blank" rel="noreferrer">Invite Bot</a>
+        <button class="button ghost" id="loginHero" type="button">Login with Discord</button>
+      </div>
+      <div class="live-strip" aria-label="Live bot status">
+        <span><i class="dot" data-status-dot></i><strong data-status-label>Checking status</strong></span>
+        <span>Uptime <strong data-uptime>--</strong></span>
+        <span>Guilds <strong data-guild-count>--</strong></span>
+      </div>
+
+      <div class="ops-panel" aria-label="Operations preview">
+        <div class="ops-head">
+          <div>
+            <span class="eyebrow">Live system</span>
+            <h2>Operations Dashboard</h2>
+          </div>
+          <span class="health-pill"><i class="dot warning" data-health-dot></i><span data-health-label>Syncing</span></span>
+        </div>
+        <div class="metric-grid">
+          <article class="metric-card">
+            <span>Stream System</span>
+            <strong data-stream-health>Standby</strong>
+          </article>
+          <article class="metric-card">
+            <span>Counter System</span>
+            <strong data-counter-health>Standby</strong>
+          </article>
+          <article class="metric-card">
+            <span>Event System</span>
+            <strong data-event-health>Standby</strong>
+          </article>
+          <article class="metric-card">
+            <span>Error Rate</span>
+            <strong data-error-rate>0.0%</strong>
+          </article>
+        </div>
+        <div class="terminal-lines">
+          <span>[streams] twitch / youtube / tiktok alert monitors ready</span>
+          <span>[counters] voice-channel stat counters queued</span>
+          <span>[dashboard] static shell loaded, API bridge optional</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="features-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Modules</span>
+          <h2 id="features-title">Built like a production bot suite.</h2>
+        </div>
+        <p>Everything is public to browse. Sensitive guild controls stay behind Discord authentication and an API bridge.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="glass-card"><span class="icon">ST</span><h3>Stream Tracking</h3><p>Twitch, YouTube, and TikTok alerts with clean embed previews.</p></article>
+        <article class="glass-card"><span class="icon">CT</span><h3>Counter System</h3><p>Member, activity, boost, voice, and verified-user counters.</p></article>
+        <article class="glass-card"><span class="icon">MD</span><h3>Moderation Tools</h3><p>AutoMod, warnings, logs, lockdowns, and staff-safe controls.</p></article>
+        <article class="glass-card"><span class="icon">LG</span><h3>Logging + Analytics</h3><p>Readable event logs, system health, growth, and error summaries.</p></article>
+        <article class="glass-card"><span class="icon">FN</span><h3>Community Commands</h3><p>Profiles, games, suggestions, socials, utility, and engagement systems.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="status" aria-labelledby="status-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Public status</span>
+          <h2 id="status-title">Operations Health</h2>
+        </div>
+        <p>Global status summary only. No secrets, stack traces, or private guild data are shown.</p>
+      </div>
+      <div class="status-grid">
+        <article class="metric-card large"><span>Bot State</span><strong data-status-label-copy>Checking</strong></article>
+        <article class="metric-card large"><span>Uptime</span><strong data-uptime-copy>--</strong></article>
+        <article class="metric-card large"><span>Active Guilds</span><strong data-guild-count-copy>--</strong></article>
+        <article class="metric-card large"><span>Last Event</span><strong data-last-event>Waiting</strong></article>
+      </div>
+      <div class="dashboard-grid">
+        <article class="glass-card">
+          <span class="eyebrow">Systems</span>
+          <div class="health-row"><span>Stream system</span><strong data-stream-health-copy>Standby</strong></div>
+          <div class="health-row"><span>Counter system</span><strong data-counter-health-copy>Standby</strong></div>
+          <div class="health-row"><span>Event system</span><strong data-event-health-copy>Standby</strong></div>
+        </article>
+        <article class="glass-card">
+          <span class="eyebrow">Provider APIs</span>
+          <div class="health-row"><span>Discord</span><strong data-api-discord>Operational</strong></div>
+          <div class="health-row"><span>Twitch</span><strong data-api-twitch>Standby</strong></div>
+          <div class="health-row"><span>YouTube</span><strong data-api-youtube>Standby</strong></div>
+          <div class="health-row"><span>TikTok</span><strong data-api-tiktok>Standby</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="commands" aria-labelledby="commands-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Command terminal catalog</span>
+          <h2 id="commands-title">Search Commands</h2>
+        </div>
+        <p>Static command docs load instantly and can be replaced by a public API when the bot bridge is online.</p>
+      </div>
+      <div class="command-layout">
+        <aside class="command-sidebar">
+          <input id="commandSearch" class="search" type="search" placeholder="Search commands..." autocomplete="off">
+          <button class="filter active" type="button" data-filter="all">All</button>
+          <button class="filter" type="button" data-filter="fun">Fun</button>
+          <button class="filter" type="button" data-filter="moderation">Moderation</button>
+          <button class="filter" type="button" data-filter="stream">Stream</button>
+          <button class="filter" type="button" data-filter="utility">Utility</button>
+          <button class="filter" type="button" data-filter="dev">Dev</button>
+        </aside>
+        <div class="command-list" id="commandList"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="dashboard" aria-labelledby="dashboard-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Secure dashboard</span>
+          <h2 id="dashboard-title">Guild Management</h2>
+        </div>
+        <p>Public preview is static. Real guild writes require the private API bridge so bot tokens and Discord secrets never ship to the browser.</p>
+      </div>
+      <div class="dashboard-shell">
+        <aside class="profile-card">
+          <span class="avatar">P</span>
+          <strong id="userName">Not connected</strong>
+          <p id="userMeta">Login is wired for a future API bridge.</p>
+          <button class="button primary full" id="loginDashboard" type="button">Login with Discord</button>
+        </aside>
+        <section class="guild-panel">
+          <div class="guild-title">
+            <div>
+              <span class="eyebrow">Guild overview</span>
+              <h3>Production Preview Server</h3>
+            </div>
+            <span class="health-pill">Bot installed</span>
+          </div>
+          <div class="settings-grid">
+            <article class="setting-card"><h4>Stream System</h4><label><input type="checkbox" checked> Twitch alerts</label><label><input type="checkbox" checked> YouTube alerts</label><label><input type="checkbox"> TikTok alerts</label></article>
+            <article class="setting-card"><h4>Counter System</h4><label><input type="checkbox" checked> Enable counters</label><label>Update frequency <select><option>10 minutes</option><option>5 minutes</option><option>30 minutes</option></select></label></article>
+            <article class="setting-card"><h4>Feature Flags</h4><label><input type="checkbox" checked> streams</label><label><input type="checkbox" checked> counters</label><label><input type="checkbox" checked> fun commands</label></article>
+            <article class="setting-card"><h4>Moderation</h4><label><input type="checkbox" checked> AutoMod low</label><label><input type="checkbox" checked> logging</label><label><input type="checkbox"> warning escalation</label></article>
+            <article class="setting-card danger"><h4>Safe Mode</h4><p>Global kill switch for risky systems.</p><button class="button ghost" type="button">Preview Toggle</button></article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section shell" id="docs" aria-labelledby="docs-title">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Deployment docs</span>
+          <h2 id="docs-title">Cloudflare Pages Ready</h2>
+        </div>
+      </div>
+      <div class="doc-grid">
+        <article class="glass-card"><h3>Build command</h3><code>exit 0</code></article>
+        <article class="glass-card"><h3>Output directory</h3><code>/</code></article>
+        <article class="glass-card"><h3>Entry file</h3><code>index.html</code></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span>Production Bot Platform</span>
+    <span>Static Cloudflare Pages deployment shell</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="./script.js"></script>
+</body>
+</html>

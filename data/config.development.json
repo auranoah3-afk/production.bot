@@ -1,0 +1,885 @@
+{
+  "version": 2,
+  "adminUserIds": [],
+  "devUserIds": [],
+  "guilds": {
+    "1478573374392504504": {
+      "logChannelId": "1478573375147348180",
+      "logsEnabled": true,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "tiktok",
+        "dashboard",
+        "dev"
+      ],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {
+        "1205738144323080214": [
+          {
+            "moderatorId": "1205738144323080214",
+            "note": "test1",
+            "createdAt": 1779671722456
+          },
+          {
+            "moderatorId": "1205738144323080214",
+            "note": "Rude to staff and non-compliant",
+            "createdAt": 1779671983468
+          }
+        ]
+      },
+      "tempBans": {},
+      "verification": {
+        "enabled": true,
+        "roleId": "1508203504664317972",
+        "channelId": "1478573375147348180",
+        "messageId": "1508303877081010368",
+        "message": "w",
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": "1205738144323080214",
+        "updatedAt": 1779654156224
+      },
+      "welcome": {
+        "enabled": true,
+        "channelId": "1486907096640524308",
+        "message": "👋 🔴 Welcome to {server}, {user}! Your profile is {tag} and you are member #{count}  don’t forget to verify to access the full server.",
+        "updatedBy": "1205738144323080214",
+        "updatedAt": 1779655049833
+      },
+      "joinChat": {
+        "enabled": true,
+        "channelId": "1478573375147348180",
+        "enabledBy": "1205738144323080214",
+        "enabledAt": 1779670860197
+      },
+      "automod": {
+        "intensity": "low",
+        "escalationMode": "timeout",
+        "testUserIds": [
+          "1205738144323080214"
+        ],
+        "mediaRules": {
+          "channels": {
+            "1478573375147348180": {
+              "allowImages": false,
+              "allowGifs": false
+            },
+            "1486907096640524308": {
+              "allowImages": false,
+              "allowGifs": false
+            }
+          },
+          "categories": {
+            "1478573375147348178": {
+              "allowImages": false,
+              "allowGifs": false
+            },
+            "1478573375147348179": {
+              "allowImages": false,
+              "allowGifs": false
+            }
+          }
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": [],
+        "lastLiveMessageId": null
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 11,
+        "lastSeenAt": 1779672638293,
+        "tone": "Fast, casual, and concise.",
+        "topics": [
+          "code",
+          "add",
+          "user",
+          "err",
+          "new",
+          "features",
+          "bot",
+          "8106"
+        ],
+        "phrases": [
+          "user also add channels ig",
+          "for all ur help",
+          "im busy sry babe",
+          "what does this mean err-int-8106",
+          "its getting revamped right now correct",
+          "u have the revamp details?",
+          "yeah bro idk anymore ts pmo"
+        ],
+        "recentMessages": [
+          {
+            "channelId": "1478573375147348180",
+            "text": "what new features is there and what is this error code ERR-MSG-0224",
+            "at": 1779508637510
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "so i think it was reading the main bot code cause i forgot to add a space 😭",
+            "at": 1779508668166
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "@user im coming out with tiktok notifcations soon",
+            "at": 1779508724192
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "@user also add channels ig",
+            "at": 1779508929298
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "for ALL ur help\\",
+            "at": 1779508934818
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "Im busy sry babe",
+            "at": 1779508955982
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "what does this mean ERR-INT-8106",
+            "at": 1779557450067
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "bot is reciving tons of new features huh",
+            "at": 1779670876857
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "its getting revamped right now correct",
+            "at": 1779670889873
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "u have the revamp details?",
+            "at": 1779670900881
+          },
+          {
+            "channelId": "1478573375147348180",
+            "text": "yeah bro idk anymore ts pmo\\",
+            "at": 1779672638293
+          }
+        ],
+        "phraseCounts": {
+          "user also add channels ig": 1,
+          "for all ur help": 1,
+          "im busy sry babe": 1,
+          "what does this mean err-int-8106": 1,
+          "its getting revamped right now correct": 1,
+          "u have the revamp details?": 1,
+          "yeah bro idk anymore ts pmo": 1
+        },
+        "topicCounts": {
+          "8106": 1,
+          "code": 2,
+          "add": 2,
+          "user": 2,
+          "err": 2,
+          "new": 2,
+          "features": 2,
+          "bot": 2,
+          "there": 1,
+          "error": 1,
+          "msg": 1,
+          "0224": 1,
+          "think": 1,
+          "reading": 1,
+          "main": 1,
+          "cause": 1,
+          "forgot": 1,
+          "space": 1,
+          "coming": 1,
+          "tiktok": 1,
+          "notifcations": 1,
+          "soon": 1,
+          "also": 1,
+          "channels": 1,
+          "help": 1,
+          "busy": 1,
+          "sry": 1,
+          "babe": 1,
+          "mean": 1,
+          "int": 1,
+          "reciving": 1,
+          "tons": 1,
+          "huh": 1,
+          "getting": 1,
+          "revamped": 1,
+          "right": 1,
+          "correct": 1,
+          "revamp": 1,
+          "details": 1,
+          "yeah": 1,
+          "bro": 1,
+          "idk": 1,
+          "anymore": 1,
+          "pmo": 1
+        },
+        "joinedChat": {
+          "1478573375147348180:1205738144323080214": {
+            "preferredName": null,
+            "lastUserMessage": "okay]",
+            "lastBotReply": "Cool—if you want the full specs, just run `/bot info` in any channel; the embed’s “Revamp” section breaks down every change with examples. You can also check the docs at `https://bot.example.com/revamp` for deeper dive. Enjoy the new features!",
+            "lastBotQuestion": null,
+            "lastTopic": "the bot",
+            "pinnedThought": null,
+            "history": [
+              {
+                "role": "user",
+                "content": "yo"
+              },
+              {
+                "role": "assistant",
+                "content": "Yo! 🙌"
+              },
+              {
+                "role": "user",
+                "content": "bot is reciving tons of new features huh"
+              },
+              {
+                "role": "assistant",
+                "content": "Yep, the bot’s been getting a bunch of upgrades lately! If you want a quick rundown of the newest features, just shout."
+              },
+              {
+                "role": "user",
+                "content": "its getting revamped right now correct"
+              },
+              {
+                "role": "assistant",
+                "content": "Yep, the bot’s in the middle of a revamp—lots of new features rolling out soon. 🎉 If you want the latest deets, just"
+              },
+              {
+                "role": "user",
+                "content": "u have the revamp details?"
+              },
+              {
+                "role": "assistant",
+                "content": "Sure thing! The revamp adds:\n\n- **Slash‑command overhaul** – cleaner UI, auto‑complete hints, and sub‑command groups. \n- **Role‑based permissions** – admins can toggle which roles can use specific commands. \n- **Live‑status embeds** – real‑time progress bars for long‑running tasks. \n- **Modular plugins** – you can enable/disable features per‑channel without restarting the bot. \n\nTo see the full changelog, just run `/bot info` and scroll to the “Revamp” section. 🎉"
+              },
+              {
+                "role": "user",
+                "content": "tellme"
+              },
+              {
+                "role": "assistant",
+                "content": "Here’s a quick rundown of the revamp"
+              },
+              {
+                "role": "user",
+                "content": "okay]"
+              },
+              {
+                "role": "assistant",
+                "content": "Cool—if you want the full specs, just run `/bot info` in any channel; the embed’s “Revamp” section breaks down every change with examples. You can also check the docs at `https://bot.example.com/revamp` for deeper dive. Enjoy the new features!"
+              }
+            ],
+            "turns": 11,
+            "updatedAt": 1779670968722
+          }
+        }
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [
+          {
+            "key": "youtube",
+            "label": "YouTube",
+            "url": "https://www.youtube.com/@MsproVODs",
+            "description": "https://www.youtube.com/@ItsMsproLive https://www.youtube.com/@mspro_22",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779512936267,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779512936267
+          }
+        ],
+        "updatedBy": "1205738144323080214",
+        "updatedAt": 1779512936267
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "protection": {
+        "level": "watch",
+        "autoLockdown": true,
+        "updatedBy": "1205738144323080214",
+        "updatedAt": 1779666601159
+      },
+      "adminRoleIds": [],
+      "expansion": {
+        "profiles": {
+          "1205738144323080214": {
+            "bio": null,
+            "status": null,
+            "about": "the goat",
+            "theme": "default",
+            "background": null,
+            "color": null,
+            "showcase": null,
+            "socials": null,
+            "portfolio": null,
+            "partnerId": null,
+            "friends": [],
+            "likes": [],
+            "thanks": 0,
+            "vouches": 0,
+            "endorsements": {},
+            "collectibles": [],
+            "updatedAt": 1779682198418
+          }
+        },
+        "economy": {
+          "1205738144323080214": {
+            "wallet": 250,
+            "bank": 0,
+            "xp": 1039,
+            "level": 3,
+            "inventory": {},
+            "cooldowns": {},
+            "stats": {
+              "game:connect4": 1
+            }
+          }
+        },
+        "reports": {
+          "RPT-MPKN2GGF-602": {
+            "id": "RPT-MPKN2GGF-602",
+            "userId": "1205738144323080214",
+            "targetId": null,
+            "reason": "Harassed me.",
+            "status": "open",
+            "createdAt": 1779679237843,
+            "updatedAt": 1779679237843
+          }
+        },
+        "automationRules": {
+          "AUTO-MPKOJPMP-991": {
+            "id": "AUTO-MPKOJPMP-991",
+            "type": "automessage",
+            "summary": "test",
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779681722497
+          }
+        },
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": "1478573375147348179",
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {
+          "TM-MPKNM6A9-661": {
+            "id": "TM-MPKNM6A9-661",
+            "type": "total_members",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "test1",
+            "emoji": "<a:happy:1409840042133819533>",
+            "style": "fancy",
+            "hidden": false,
+            "enabled": true,
+            "position": 1,
+            "refreshIntervalMs": 300000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "HM-MPKNNUKB-828": {
+            "id": "HM-MPKNNUKB-828",
+            "type": "human_members",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Humans",
+            "emoji": "👤",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "BC-MPKNNUKB-500": {
+            "id": "BC-MPKNNUKB-500",
+            "type": "bot_count",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Bots",
+            "emoji": "🤖",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "OM-MPKNNUKB-733": {
+            "id": "OM-MPKNNUKB-733",
+            "type": "online_members",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Online",
+            "emoji": "🟢",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "MT-MPKNNUKC-688": {
+            "id": "MT-MPKNNUKC-688",
+            "type": "messages_today",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Messages Today",
+            "emoji": "💬",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "AVU-MPKNNUKC-946": {
+            "id": "AVU-MPKNNUKC-946",
+            "type": "active_voice_users",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "In Voice",
+            "emoji": "🔊",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "BC-MPKNNUKD-486": {
+            "id": "BC-MPKNNUKD-486",
+            "type": "boost_count",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Boosts",
+            "emoji": "🚀",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          },
+          "VU-MPKNNUKD-923": {
+            "id": "VU-MPKNNUKD-923",
+            "type": "verified_users",
+            "channelId": null,
+            "categoryId": "1478573375147348179",
+            "label": "Verified",
+            "emoji": "✅",
+            "style": "compact",
+            "hidden": false,
+            "enabled": true,
+            "position": 2,
+            "refreshIntervalMs": 600000,
+            "lastValue": null,
+            "lastName": null,
+            "lastUpdatedAt": null,
+            "milestones": {}
+          }
+        },
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 7,
+          "activeUserIds": [
+            "1205738144323080214"
+          ],
+          "peakOnline": 0,
+          "peakVoice": 1,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      }
+    },
+    "1505751652655693926": {
+      "logChannelId": null,
+      "logsEnabled": false,
+      "enabledLogCategories": [
+        "messages",
+        "members",
+        "moderation",
+        "channels",
+        "roles",
+        "voice",
+        "sticky",
+        "twitch",
+        "youtube",
+        "dashboard",
+        "dev"
+      ],
+      "lockdownRoleId": null,
+      "stickyMessages": {},
+      "warnings": {},
+      "modNotes": {},
+      "tempBans": {},
+      "verification": {
+        "enabled": false,
+        "roleId": null,
+        "channelId": null,
+        "messageId": null,
+        "message": null,
+        "visibleChannelIds": [],
+        "autoHideChannels": true,
+        "autoSyncNewChannels": true,
+        "captchaEnabled": false,
+        "timeoutMinutes": 0,
+        "autoKickUnverified": false,
+        "minAccountAgeDays": 0,
+        "unverifiedRoleId": null,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "message": "We hope you enjoy your time here at {server}, {user}.",
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "joinChat": {
+        "enabled": false,
+        "channelId": null,
+        "enabledBy": null,
+        "enabledAt": null
+      },
+      "automod": {
+        "intensity": "off",
+        "escalationMode": "timeout",
+        "testUserIds": [],
+        "mediaRules": {
+          "channels": {},
+          "categories": {}
+        }
+      },
+      "twitch": {
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "currentlyLive": false,
+        "lastStreamId": null,
+        "lastAnnouncedAt": null,
+        "lastStreamTitle": null,
+        "lastStreamGame": null,
+        "lastStreamStartedAt": null,
+        "lastEndedStreamId": null,
+        "lastEndedAt": null,
+        "lastVodUrl": null,
+        "lastVodTitle": null,
+        "streamers": [],
+        "lastLiveMessageId": null
+      },
+      "youtube": {
+        "channelId": "",
+        "channelName": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "communityMemory": {
+        "messageCount": 0,
+        "lastSeenAt": null,
+        "tone": "Not enough chat memory yet.",
+        "topics": [],
+        "phrases": [],
+        "recentMessages": [],
+        "phraseCounts": {},
+        "topicCounts": {},
+        "joinedChat": {}
+      },
+      "tiktok": {
+        "username": "",
+        "displayName": null,
+        "profileUrl": null,
+        "avatarUrl": null,
+        "announceChannelId": null,
+        "enabled": false,
+        "mentionRoleId": null,
+        "notifyEveryone": false,
+        "customMessage": null,
+        "lastVideoId": null,
+        "lastVideoTitle": null,
+        "lastVideoUrl": null,
+        "lastVideoPublishedAt": null,
+        "lastAnnouncedAt": null,
+        "announceNextExisting": false,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official links for this server.",
+        "links": [],
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "reactionRoles": {
+        "panels": {}
+      },
+      "protection": {
+        "level": "off",
+        "autoLockdown": true,
+        "updatedBy": null,
+        "updatedAt": null
+      },
+      "adminRoleIds": [],
+      "expansion": {
+        "profiles": {},
+        "economy": {},
+        "reports": {},
+        "automationRules": {},
+        "security": {
+          "panic": false,
+          "raidMode": false,
+          "updatedBy": null,
+          "updatedAt": null
+        }
+      },
+      "counters": {
+        "enabled": true,
+        "categoryId": null,
+        "refreshIntervalMs": 600000,
+        "hiddenByDefault": false,
+        "counters": {},
+        "activity": {
+          "date": "2026-05-25",
+          "messagesToday": 0,
+          "activeUserIds": [],
+          "peakOnline": 0,
+          "peakVoice": 0,
+          "history": []
+        },
+        "lastRefreshAt": null
+      },
+      "caseSystem": {
+        "enabled": false,
+        "categoryId": null,
+        "logChannelId": null,
+        "staffRoleIds": [],
+        "staffUserIds": [],
+        "archiveOnClose": true,
+        "transcriptOnClose": false,
+        "nextCaseNumber": 1,
+        "cases": {}
+      }
+    },
+    "1116194748223475742": {
+      "socialLinks": {
+        "title": "Social Links",
+        "description": "Official L Block links.",
+        "links": [
+          {
+            "key": "twitch-lenngocrazy",
+            "label": "lenngocrazy",
+            "url": "https://www.twitch.tv/lenngocrazy",
+            "description": "Welcome to L Block. GIMME A YUURRRPPP!",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          },
+          {
+            "key": "tiktok-lharrisiii",
+            "label": "lharrisiii",
+            "url": "https://www.tiktok.com/@lharrisiii?_t=zt-8wxdpdfsl7q&_r=1",
+            "description": "lenngocrazy on TikTok.",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          },
+          {
+            "key": "youtube-lennon",
+            "label": "Lennon",
+            "url": "https://www.youtube.com/@LennGoCrazy",
+            "description": "Welcome to L Block community.",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          },
+          {
+            "key": "x-lenngocrazy",
+            "label": "LennGoCrazy",
+            "url": "https://x.com/LennGoCrazy",
+            "description": "L Block gimme a Yurpppp!",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          },
+          {
+            "key": "instagram-lharrisiii",
+            "label": "lharrisiii",
+            "url": "https://www.instagram.com/lharrisiii/",
+            "description": "LennGoCrazy on Instagram.",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          },
+          {
+            "key": "linktree-lharrisiii",
+            "label": "lharrisiii Linktree",
+            "url": "https://linktr.ee/lennonharrisiii",
+            "description": "Instagram, TikTok, Twitch, and more.",
+            "emoji": null,
+            "createdBy": "1205738144323080214",
+            "createdAt": 1779514038130,
+            "updatedBy": "1205738144323080214",
+            "updatedAt": 1779514038130
+          }
+        ],
+        "updatedBy": "1205738144323080214",
+        "updatedAt": 1779514038130
+      }
+    }
+  },
+  "updateSubscribers": [
+    "1205738144323080214"
+  ],
+  "lastBotVersion": "2",
+  "uptimeStatus": {
+    "guildId": "1505751652655693926",
+    "channelId": "1506820166619631636",
+    "messageId": "1508220086480015481"
+  },
+  "errorDmUserIds": [],
+  "suggestions": {},
+  "disabledCommands": []
+}

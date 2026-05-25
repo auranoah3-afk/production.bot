@@ -1,19 +1,28 @@
 {
   "name": "discordbot",
-  "version": "2.1.1",
+  "version": "2.0.0",
   "description": "A multi-server Discord community and moderation bot using discord.js.",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "start:pm2": "pm2 start ecosystem.config.cjs",
-    "deploy": "node src/deploy-commands.js"
+    "start": "pm2 start ecosystem.config.cjs --env production --only discordbot --update-env",
+    "start:pm2": "pm2 start ecosystem.config.cjs --env production --only discordbot --update-env",
+    "start:dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/start-discordbot-dev.ps1",
+    "deploy": "node src/deploy-commands.js",
+    "deploy:dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-discordbot-dev.ps1",
+    "preview": "node src/local-preview-server.js",
+    "test": "node tests/run-tests.js"
   },
   "dependencies": {
     "discord.js": "^14.22.1",
-    "dotenv": "^16.4.7"
+    "dotenv": "^17.4.2",
+    "fast-xml-parser": "^5.8.0",
+    "nodemailer": "^8.0.7"
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "pm2": "^7.0.1"
   }
 }

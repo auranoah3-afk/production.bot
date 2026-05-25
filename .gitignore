@@ -1,8 +1,14 @@
 node_modules/
 .env
+.env.*
+!.env.example
+!.env.development.example
 *.log
 .DS_Store
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 discordbot.lock
+discordbot.*.lock
+data/*.sqlite
+data/*.sqlite-*

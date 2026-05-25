@@ -1,0 +1,11 @@
+/.env /404.html 404
+/.env.* /404.html 404
+/data/* /404.html 404
+/src/* /404.html 404
+/tests/* /404.html 404
+/scripts/* /404.html 404
+/node_modules/* /404.html 404
+/*.lock /404.html 404
+/*.log /404.html 404
+/package-lock.json /404.html 404
+/ecosystem.config.cjs /404.html 404
