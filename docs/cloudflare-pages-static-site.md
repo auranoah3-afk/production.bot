@@ -7,7 +7,6 @@ This repository now contains a static public website in `public/`:
 - `public/script.js`
 - `public/.nojekyll`
 - `public/_headers`
-- `public/_redirects`
 - `public/404.html`
 
 ## Cloudflare Pages Settings
@@ -60,4 +59,4 @@ Future pushes to the selected GitHub branch will automatically redeploy the publ
 
 The public site is fully static and does not expose bot tokens or Discord secrets. Real Discord OAuth session exchange and authenticated guild configuration writes require a backend API bridge or Cloudflare Pages Functions because a static browser app cannot safely store a Discord client secret.
 
-The `_redirects` file blocks common bot source/config paths. Keep `.env`, logs, lock files, SQLite databases, and `node_modules` out of git; `.gitignore` already excludes them.
+Only files in `public/` are deployed. Keep `.env`, logs, lock files, SQLite databases, and `node_modules` out of git; `.gitignore` already excludes them.

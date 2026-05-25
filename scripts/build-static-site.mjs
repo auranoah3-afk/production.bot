@@ -9,7 +9,6 @@ const staticFiles = [
   'script.js',
   '404.html',
   '_headers',
-  '_redirects',
   '.nojekyll'
 ];
 
