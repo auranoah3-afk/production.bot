@@ -36,20 +36,20 @@ https://<project-name>.pages.dev
 8. Set output directory to `public`.
 9. Deploy.
 
-## Cloudflare Workers/Wrangler Settings
+## Important: Use Pages, Not Workers
 
-If you deploy manually with Wrangler, use:
+Do not set the Cloudflare deploy/build command to `npx wrangler deploy`.
+This repository is meant to deploy as a Cloudflare Pages static site.
 
-```powershell
-npm run deploy:site
-```
+If Cloudflare shows a command called "Deploy command", leave it blank for Pages.
+Only use:
 
-The included `wrangler.jsonc` points static assets at `./public`, which prevents Wrangler from
-uploading the bot source, `node_modules`, SQLite files, logs, or other non-website artifacts.
+- Build command: `npm run build`
+- Build output directory: `public`
+- Root directory: repository root
 
-The root `.assetsignore` is a second safety layer. If Cloudflare or Wrangler ever falls back to
-using the repository root as the assets directory, it still excludes bot code, dependencies, logs,
-and databases from the upload.
+The root `.assetsignore` is a safety layer for accidental Wrangler/static-asset deploys. It excludes
+bot code, dependencies, logs, and databases from asset uploads.
 
 Future pushes to the selected GitHub branch will automatically redeploy the public site.
 

@@ -11,7 +11,6 @@
     "build": "node scripts/build-static-site.mjs",
     "deploy": "npm run build",
     "deploy:commands": "node src/deploy-commands.js",
-    "deploy:site": "npx wrangler pages deploy public --project-name productionbot",
     "deploy:dev": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/deploy-discordbot-dev.ps1",
     "preview": "node src/local-preview-server.js",
     "test": "node tests/run-tests.js"
